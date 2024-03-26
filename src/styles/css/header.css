@@ -2,6 +2,43 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: normal;
+}
+
+h3 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  font-style: normal;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: normal;
+}
+
+h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-style: normal;
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: normal;
 }
 
 body {
@@ -58,4 +95,52 @@ nav a:active {
   background-color: #FADC40;
   color: #000000;
   padding: 0.5rem 2.5rem;
+}
+
+@media only screen and (max-width: 928px) {
+  .app-bar {
+    padding: 1.25rem 3rem;
+  }
+  .logo {
+    width: 50px;
+  }
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 86px;
+    right: -100%;
+    padding: 1.5rem;
+    border-radius: 12px 0px 0px 12px;
+    background-color: #414FCA;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    transition: right 0.3s ease;
+  }
+  .nav-list.active {
+    display: flex;
+    right: 0;
+  }
+  .nav-item {
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+    padding: 14px 0;
+  }
+  nav a {
+    width: 100%;
+    color: #FFFFFF;
+    text-align: left;
+  }
+  nav a:hover,
+  #login:hover {
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+  }
+  #login {
+    margin-left: 0;
+  }
+  .menu-icon {
+    display: block;
+  }
 }/*# sourceMappingURL=header.css.map */

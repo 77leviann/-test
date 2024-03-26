@@ -47,24 +47,23 @@ const Footer = () => {
       </div>
       <div className="footer-right">
         <div className="footer-right__group">
-          <h3>Layanan</h3>
+          <h4>Layanan</h4>
           <ul>
             <li>Konseling</li>
             <li>Mentoring</li>
           </ul>
         </div>
         <div className="footer-right__group">
-          <h3>Kelompok 2</h3>
+          <h4>Tentang Kami</h4>
           <ul>
-            <li>Tentang Kami</li>
-            <li>webinar</li>
+            <li>Webinar</li>
             <li>Campaign</li>
             <li>Karir</li>
             <li>Rekap History</li>
           </ul>
         </div>
         <div className="footer-right__group">
-          <h3>Yang Lainnya</h3>
+          <h4>Yang Lainnya</h4>
           <ul>
             <li>Kebijakan Privasi</li>
             <li>FAQ</li>

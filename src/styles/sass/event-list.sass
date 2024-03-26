@@ -14,7 +14,7 @@
     &-list__card
         display: flex
         flex-flow: row nowrap
-        gap: 3rem
+        gap: 2rem
 
     &-card
         display: flex
@@ -44,3 +44,49 @@
             font-size: $font-size-medium
             font-weight: $font-weight-bold
             text-decoration: none
+
+@media screen and (max-width: 1140px)
+    .event-card
+        padding: 2rem 2rem
+        .event-image
+            max-width: 350px
+
+@media screen and (max-width: 768px)
+    .event-list__card
+        flex-direction: column
+
+    .event-card
+        padding: 2rem 2rem
+        .event-image
+            max-width: 300px
+
+@media screen and (max-width: 660px)
+    .event
+        padding: 2rem 1rem
+
+    .event-list__card
+        flex-direction: column
+
+    .event-card
+        padding: 1.5rem 1.5rem
+        .event-image
+            max-width: 250px
+
+@media screen and (max-width: 480px)
+    .event
+        padding: 2rem 1rem
+        gap: 2rem
+
+    .event-list
+        gap: 2rem
+
+    .event-list__card
+        flex-direction: column
+
+    .event-card
+        padding: 1.5rem 1.5rem
+        .event-image
+            max-width: 200px
+
+
+

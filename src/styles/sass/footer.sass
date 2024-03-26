@@ -49,3 +49,58 @@
 
                 li
                     margin-bottom: 5px
+
+@media screen and (max-width: 1140px)
+    .footer
+        flex-direction: column
+        align-items: flex-start
+
+        &-left
+            order: 1
+
+        &-right
+            order: 2
+
+@media screen and (max-width: 768px)
+    .footer
+        padding: 2rem
+        flex-flow: column-reverse nowrap
+        
+        &-left
+            max-width: 100%
+
+            &__top, &__bottom
+                align-items: center
+
+            &__top
+                gap: 1rem
+
+            &__bottom
+                gap: 0.5rem
+
+            &__middle
+                margin: 1rem 0
+
+        &-right
+            flex-direction: column
+
+            &__group
+                h3
+                    text-align: center
+
+                ul
+                    padding-left: 0
+
+                    li
+                        margin-bottom: 0.5rem
+
+@media screen and (max-width: 660px)
+    .footer
+        padding: 1.5rem
+
+        &-left
+            padding: 1rem
+
+        &-right
+            padding: 1rem
+

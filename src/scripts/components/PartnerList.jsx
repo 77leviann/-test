@@ -12,7 +12,7 @@ const PartnerList = () => {
   return (
     <div className="partner">
       <div className="partner-list">
-        <h3>Telah Bepartner Dengan:</h3>
+        <h3>Telah Berkerjasama Dengan:</h3>
         <div className="partner-list__card">
           {partners.map((partner) => (
             <div className="partner-card" key={partner.id}>

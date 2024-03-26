@@ -3,7 +3,7 @@
 .hero
     width: 100%
     display: flex
-    justify-content: space-between
+    justify-content: space-around
     align-items: center
     gap: 4rem
 
@@ -45,3 +45,59 @@
             width: 100%
             height: auto
             object-fit: cover
+
+@media screen and (max-width: 1140px)
+    .hero
+        flex-flow: column-reverse nowrap
+        align-items: center
+        gap: 1rem
+
+    .hero-content
+        min-width: 100%
+        padding: 0 1rem
+
+    .hero-content-title
+        font-size: 1.5rem
+        overflow: hidden
+
+    .hero-content-desc
+        font-size: 1rem
+
+    .start-note
+        padding: 0.75rem 1rem
+        font-size: 0.5rem
+
+    .hero-image
+        max-width: 100%
+        width: 100%
+
+@media screen and (max-width: 768px)
+    .hero
+        flex-flow: column-reverse nowrap
+        align-items: center
+        gap: 1rem
+
+    .hero-content
+        min-width: 100%
+        padding: 0 1rem
+
+    .hero-content-title
+        font-size: 1.2rem
+        overflow: hidden
+
+    .hero-content-desc
+        font-size: 0.8rem
+        overflow: hidden
+
+    .start-note
+        padding: 0.75rem 1rem
+        font-size: 1rem
+
+    .hero-image
+        max-width: 100%
+        width: 100%
+
+@media screen and (max-width: 660px)
+    .app-bar
+        padding: 1.15rem 1.75rem
+

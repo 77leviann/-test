@@ -83,6 +83,16 @@ body {
   padding: 2rem 1rem;
   text-align: center;
 }
+.testimonial-card .testimonial-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  word-wrap: break-word;
+  line-height: 1.5rem;
+}
 .testimonial-card .testimonial-image {
   border-radius: 1rem;
   max-width: 300px;

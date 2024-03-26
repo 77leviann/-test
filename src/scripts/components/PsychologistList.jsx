@@ -31,7 +31,7 @@ const PsychologistList = () => {
   return (
     <div className="psychologist">
       <div className="psychologist-list">
-        <h3>Profil psychologist</h3>
+        <h3>Profil Psikolog</h3>
         <div
           className="psychologist-list__container"
           onTouchStart={handleTouchStart}
