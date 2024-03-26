@@ -11,7 +11,6 @@ export default defineConfig({
       '@pages': '/src/scripts/pages',
       '@globals': '/src/scripts/globals',
       '@data': '/src/scripts/data',
-      '@eventImages': '/public/images/event',
     },
   },
 })
