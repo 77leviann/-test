@@ -6,6 +6,7 @@ import PsychologistList from '@components/PsychologistList';
 import ServiceList from '@components/ServiceList';
 import TestimonialList from '@components/TestimonialList';
 import PartnerList from './PartnerList';
+import GetStarted from './GetStarted';
 
 import "@styles/main-section.css";
 
@@ -20,6 +21,7 @@ const MainSection = () => {
       <ServiceList />
       <TestimonialList/>
       <PartnerList />
+      <GetStarted />
     </div>
   );
 };

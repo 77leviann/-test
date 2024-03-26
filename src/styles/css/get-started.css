@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: normal;
+}
+
+h3 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  font-style: normal;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: normal;
+}
+
+h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-style: normal;
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #FFFFFF;
+}
+
+.footer-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5rem;
+  background-color: #E8E8E8;
+  border-radius: 0.5rem;
+  gap: 1rem;
+}
+.footer-card h3 {
+  color: #000000;
+}
+.footer-card .start-note {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000000;
+  background-color: #FADC40;
+  border: 2px solid transparent;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.footer-card .start-note:hover {
+  color: #FFFFFF;
+  background-color: #FADC40;
+  border: 2px solid #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-card {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=get-started.css.map */
