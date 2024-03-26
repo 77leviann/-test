@@ -12,12 +12,23 @@ const EventList = () => {
   return (
     <div className="event">
       <div className="event-list">
-        <h2>Ikuti Kegiatan yang sedang berlangsung</h2>
+        <h3>Ikuti Kegiatan yang sedang berlangsung</h3>
         <div className="event-list__card">
           {events.map((event) => (
             <div className="event-card" key={event.id}>
-              <img className="event-image" src={event.image} alt={event.title} />
-              <h3 className="event-title">{event.title}</h3>
+              <img
+                className="event-image"
+                src={event.image}
+                alt={event.title}
+              />
+              <a
+                href="#"
+                className="event-title"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {event.title}
+              </a>{" "}
             </div>
           ))}
         </div>

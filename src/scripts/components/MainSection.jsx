@@ -2,10 +2,10 @@ import React from 'react';
 import Hero from '@components/Hero';
 import EventList from '@components/EventList';
 import StepList from '@components/StepList';
-import PsikologList from '@components/PsikologList';
-import LayananList from '@components/LayananList';
-import TestimoniList from '@components/TestimoniList';
-import KerjasamaList from './KerjasamaList';
+import PsychologistList from '@components/PsychologistList';
+import ServiceList from '@components/ServiceList';
+import TestimonialList from '@components/TestimonialList';
+import PartnerList from './PartnerList';
 
 import "@styles/main-section.css";
 
@@ -16,10 +16,10 @@ const MainSection = () => {
       <Hero />
       <EventList />
       <StepList />
-      <PsikologList />
-      <LayananList />
-      <TestimoniList/>
-      <KerjasamaList />
+      <PsychologistList />
+      <ServiceList />
+      <TestimonialList/>
+      <PartnerList />
     </div>
   );
 };

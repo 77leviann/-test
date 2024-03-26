@@ -1,15 +1,15 @@
 import React, { useState, useEffect, useRef } from "react";
-import "@styles/testimoni-list.css";
-import testimonisData from "@data/testimoni/testimoni.json";
+import "@styles/testimonial-list.css";
+import testimonialsData from "@data/testimonial/testimonial.json";
 
-const TestimoniList = () => {
-  const [testimonis, setTestimonis] = useState([]);
+const TestimonialList = () => {
+  const [testimonials, setTestimonials] = useState([]);
   const [scrollPosition, setScrollPosition] = useState(0);
   const scrollRef = useRef(null);
   const touchStartX = useRef(null);
 
   useEffect(() => {
-    setTestimonis(testimonisData);
+    setTestimonials(testimonialsData);
   }, []);
 
   const handleTouchStart = (e) => {
@@ -29,28 +29,28 @@ const TestimoniList = () => {
   };
 
   return (
-    <div className="testimoni">
-      <div className="testimoni-list">
-        <h2>Testimoni mereka yang telah menggunakan afeksi</h2>
+    <div className="testimonial">
+      <div className="testimonial-list">
+        <h3>Testimonial mereka yang telah menggunakan afeksi</h3>
         <div
-          className="testimoni-list__container"
+          className="testimonial-list__container"
           onTouchStart={handleTouchStart}
           onTouchMove={handleTouchMove}
           onTouchEnd={handleTouchEnd}
         >
           <div
-            className="testimoni-list__wrapper"
+            className="testimonial-list__wrapper"
             ref={scrollRef}
             style={{ transform: `translateX(-${scrollPosition}px)` }}
           >
-            {testimonis.map((testimoni) => (
-              <div className="testimoni-card" key={testimoni.id}>
+            {testimonials.map((testimonial) => (
+              <div className="testimonial-card" key={testimonial.id}>
                 <img
-                  className="testimoni-image"
-                  src={testimoni.image}
-                  alt={testimoni.name}
+                  className="testimonial-image"
+                  src={testimonial.image}
+                  alt={testimonial.name}
                 />
-                <h5 className="testimoni-title">{testimoni.testimony}</h5>
+                <p className="testimonial-title">{testimonial.testimony}</p>
               </div>
             ))}
           </div>
@@ -60,4 +60,4 @@ const TestimoniList = () => {
   );
 };
 
-export default TestimoniList;
+export default TestimonialList;

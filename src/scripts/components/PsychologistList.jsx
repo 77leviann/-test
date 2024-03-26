@@ -1,15 +1,15 @@
 import React, { useState, useEffect, useRef } from "react";
-import "@styles/psikolog-list.css";
-import psikologsData from "@data/psikolog/psikolog.json";
+import "@styles/psychologist-list.css";
+import psychologistsData from "@data/psychologist/psychologist.json";
 
-const PsikologList = () => {
-  const [psikologs, setPsikologs] = useState([]);
+const PsychologistList = () => {
+  const [psychologists, setPsychologists] = useState([]);
   const [scrollPosition, setScrollPosition] = useState(0);
   const scrollRef = useRef(null);
   const touchStartX = useRef(null);
 
   useEffect(() => {
-    setPsikologs(psikologsData);
+    setPsychologists(psychologistsData);
   }, []);
 
   const handleTouchStart = (e) => {
@@ -29,28 +29,29 @@ const PsikologList = () => {
   };
 
   return (
-    <div className="psikolog">
-      <div className="psikolog-list">
-        <h2>Profil Psikolog</h2>
+    <div className="psychologist">
+      <div className="psychologist-list">
+        <h3>Profil psychologist</h3>
         <div
-          className="psikolog-list__container"
+          className="psychologist-list__container"
           onTouchStart={handleTouchStart}
           onTouchMove={handleTouchMove}
           onTouchEnd={handleTouchEnd}
         >
           <div
-            className="psikolog-list__wrapper"
+            className="psychologist-list__wrapper"
             ref={scrollRef}
             style={{ transform: `translateX(-${scrollPosition}px)` }}
           >
-            {psikologs.map((psikolog) => (
-              <div className="psikolog-card" key={psikolog.id}>
-                <img
-                  className="psikolog-image"
-                  src={psikolog.image}
-                  alt={psikolog.title}
-                />
-                <h5 className="psikolog-title">{psikolog.title}</h5>
+            {psychologists.map((psychologist) => (
+              <div className="psychologist-card" key={psychologist.id}>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <img
+                    className="psychologist-image"
+                    src={psychologist.image}
+                    alt={psychologist.name}
+                  />
+                </a>
               </div>
             ))}
           </div>
@@ -60,4 +61,4 @@ const PsikologList = () => {
   );
 };
 
-export default PsikologList;
+export default PsychologistList;

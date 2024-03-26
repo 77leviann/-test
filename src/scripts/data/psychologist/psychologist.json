@@ -2,51 +2,51 @@
     {
         "id": 1,
         "name": "Dr. Amanda Smith",
-        "image": "../../images/psikolog/psikolog.png"
+        "image": "../../images/psychologist/psychologist.png"
     },
     {
         "id": 2,
         "name": "Dr. David Johnson",
-        "image": "../../images/psikolog/psikolog.png"
+        "image": "../../images/psychologist/psychologist.png"
     },
     {
         "id": 3,
         "name": "Dr. Emily Williams",
-        "image": "../../images/psikolog/psikolog.png"
+        "image": "../../images/psychologist/psychologist.png"
     },
     {
         "id": 4,
         "name": "Dr. Michael Brown",
-        "image": "../../images/psikolog/psikolog.png"
+        "image": "../../images/psychologist/psychologist.png"
     },
     {
         "id": 5,
         "name": "Dr. Jessica Martinez",
-        "image": "../../images/psikolog/psikolog.png"
+        "image": "../../images/psychologist/psychologist.png"
     },
     {
         "id": 6,
         "name": "Dr. Christopher Lee",
-        "image": "../../images/psikolog/psikolog.png"
+        "image": "../../images/psychologist/psychologist.png"
     },
     {
         "id": 7,
         "name": "Dr. Sarah Wilson",
-        "image": "../../images/psikolog/psikolog.png"
+        "image": "../../images/psychologist/psychologist.png"
     },
     {
         "id": 8,
         "name": "Dr. Daniel Thompson",
-        "image": "../../images/psikolog/psikolog.png"
+        "image": "../../images/psychologist/psychologist.png"
     },
     {
         "id": 9,
         "name": "Dr. Jennifer Davis",
-        "image": "../../images/psikolog/psikolog.png"
+        "image": "../../images/psychologist/psychologist.png"
     },
     {
         "id": 10,
         "name": "Dr. Kevin Clark",
-        "image": "../../images/psikolog/psikolog.png"
+        "image": "../../images/psychologist/psychologist.png"
     }
 ]
