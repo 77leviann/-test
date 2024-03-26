@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #FFFFFF;
+}
+
+.kerjasama {
+  display: flex;
+  background-color: #BDBDBD;
+  padding: 3rem;
+  flex-flow: column nowrap;
+  gap: 4rem;
+}
+
+.kerjasama-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.kerjasama-list__card {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 10rem;
+}
+
+.kerjasama-card {
+  display: flex;
+  width: 100%;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.kerjasama-card .kerjasama-image {
+  border-radius: 1rem;
+  max-width: 100px;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=kerjasama-list.css.map */

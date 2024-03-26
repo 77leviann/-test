@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #FFFFFF;
+}
+
+.testimoni {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 4rem;
+}
+.testimoni-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  cursor: pointer;
+}
+.testimoni-list__card {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1rem;
+  cursor: pointer;
+}
+.testimoni-list__container {
+  width: 100%;
+  overflow-x: auto;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+.testimoni-list__wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.testimoni-card {
+  display: flex;
+  width: 100%;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+.testimoni-card .testimoni-image {
+  border-radius: 1rem;
+  max-width: 300px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.testimoni .scroll-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 1;
+}
+.testimoni .scroll-button.left {
+  left: 0;
+}
+.testimoni .scroll-button.right {
+  right: 0;
+}/*# sourceMappingURL=testimoni-list.css.map */

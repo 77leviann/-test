@@ -1,0 +1,12 @@
+[
+    {
+      "id": 1,
+      "title": "Live Instagram",
+      "image": "../../images/event/event-1.png"
+    },
+    {
+      "id": 2,
+      "title": "Challage",
+      "image": "../../images/event/event-2.png"
+    }
+  ]

@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #FFFFFF;
+}
+
+.step {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 4rem;
+}
+
+.step-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.step-list__card {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1rem;
+}
+
+.step-card {
+  display: flex;
+  width: 100%;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+.step-card .step-image {
+  border-radius: 1rem;
+  max-width: 300px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.step-card .step-title {
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 1rem;
+}/*# sourceMappingURL=step-list.css.map */

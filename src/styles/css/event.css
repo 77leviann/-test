@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #FFFFFF;
+}
+
+.event {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 4rem;
+}
+
+.event-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  padding: 0 2rem;
+  gap: 1rem;
+}/*# sourceMappingURL=event.css.map */

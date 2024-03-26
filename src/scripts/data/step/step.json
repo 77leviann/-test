@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "title": "Pilih Paket",
+      "description": "Pilihlah paket yang anda inginkan",
+      "image": "../../images/step/step.png"
+    },
+    {
+      "id": 2,
+      "title": "Pilih Psikolog",
+      "description": "Pilih psikolog sesuai masalah yang Anda hadapi",
+      "image": "../../images/step/step.png"
+    },
+    {
+      "id": 3,
+      "title": "Isi Identitas & Mengatur Jadwal",
+      "description": "Isilah isi identitas dan atur jadwal konsultasi",
+      "image": "../../images/step/step.png"
+    },
+    {
+      "id": 4,
+      "title": "Pembayaran",
+      "description": "Lakukan pembayaran untuk bisa mengikuti konseling",
+      "image": "../../images/step/step.png"
+    }
+]
